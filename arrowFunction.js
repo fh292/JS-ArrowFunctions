@@ -21,3 +21,11 @@ const square = (x) => {
   console.log(`${x * x}`);
 };
 square(4);
+
+const numbers = [1, 2, 3];
+
+function SquaredNumbers(numbers) {
+  return numbers.map((x) => x * x);
+}
+
+console.log(SquaredNumbers(numbers));
